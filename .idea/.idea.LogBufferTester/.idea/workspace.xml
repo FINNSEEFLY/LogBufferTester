@@ -4,7 +4,18 @@
     <projectFile>LogBufferTester/LogBufferTester.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c4c0a39-7b68-478f-9764-8e29d67b0958" name="Default Changelist" comment="" />
+    <list default="true" id="6c4c0a39-7b68-478f-9764-8e29d67b0958" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/LogBuffer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/LogBuffer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/obj/Debug/netcoreapp3.1/LogBufferTester.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/obj/Debug/netcoreapp3.1/LogBufferTester.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/obj/Debug/netcoreapp3.1/LogBufferTester.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/obj/Debug/netcoreapp3.1/LogBufferTester.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/obj/LogBufferTester.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/obj/LogBufferTester.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/obj/LogBufferTester.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/obj/LogBufferTester.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogBufferTester/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/LogBufferTester/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +77,7 @@
       <workItem from="1604063236023" duration="2567000" />
       <workItem from="1604256238797" duration="8591000" />
       <workItem from="1604265432905" duration="8834000" />
+      <workItem from="1604318465864" duration="377000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\FINNSEEFLY\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\FINNSEEFLY\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_LogBufferTester.787809896.00" t="ExcludeRecursive" />
-    <e p="D:\Projects C#\LogBufferTester" t="IncludeFlat">
+    <e p="C:\Projects C#\LogBufferTester" t="IncludeFlat">
       <e p="LogBufferTester" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="LogBuffer.cs" t="Include" />
@@ -21,5 +19,7 @@
       <e p="LogBufferTester.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\FINNSEEFLY\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\FINNSEEFLY\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_LogBufferTester.1028350025.00" t="ExcludeRecursive" />
   </component>
 </project>

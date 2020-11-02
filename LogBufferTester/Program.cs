@@ -50,6 +50,7 @@ namespace LogBufferTester
                                 }
                             }
                         } while (value <= 0);
+
                         break;
                     case 2:
                         Console.Write("Сколько сообщений записать?: ");
@@ -70,6 +71,7 @@ namespace LogBufferTester
                                 }
                             }
                         } while (value <= 0);
+
                         break;
                     case 3:
                         logBuffer.IsLogging = !logBuffer.IsLogging;
@@ -77,7 +79,7 @@ namespace LogBufferTester
                             logBuffer.IsLogging ? "включена" : "выключена");
                         break;
                     case 4:
-                        Console.Write("Изменить задерждку между записями на: ");
+                        Console.Write("Введите новую задержку в мс: ");
                         do
                         {
                             value = ParseAnswer(Console.ReadLine());

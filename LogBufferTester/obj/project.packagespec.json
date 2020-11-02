@@ -1,11 +1,14 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj",
+    "projectUniqueName": "C:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj",
     "projectName": "LogBufferTester",
-    "projectPath": "D:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj",
-    "outputPath": "D:\\Projects C#\\LogBufferTester\\LogBufferTester\\obj\\",
+    "projectPath": "C:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj",
+    "outputPath": "C:\\Projects C#\\LogBufferTester\\LogBufferTester\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
@@ -41,7 +44,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
     }
   }
 }

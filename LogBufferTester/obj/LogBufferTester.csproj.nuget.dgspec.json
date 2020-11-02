@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj": {}
+    "C:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj": {}
   },
   "projects": {
-    "D:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj": {
+    "C:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj",
+        "projectUniqueName": "C:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj",
         "projectName": "LogBufferTester",
-        "projectPath": "D:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj",
+        "projectPath": "C:\\Projects C#\\LogBufferTester\\LogBufferTester\\LogBufferTester.csproj",
         "packagesPath": "C:\\Users\\FINNSEEFLY\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects C#\\LogBufferTester\\LogBufferTester\\obj\\",
+        "outputPath": "C:\\Projects C#\\LogBufferTester\\LogBufferTester\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\FINNSEEFLY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

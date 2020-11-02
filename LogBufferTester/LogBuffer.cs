@@ -15,7 +15,7 @@ namespace LogBufferTester
         private sealed class messageWithFlag
         {
             public string Message { get; set; }
-            public  bool IsRecorded { get; set; }
+            public bool IsRecorded { get; set; }
         }
 
         private const string DefaultPath = "mylog.txt";
@@ -65,7 +65,7 @@ namespace LogBufferTester
             {
                 var message = $"[{DateTime.Now}]: {item}";
                 _messageBuffer.Enqueue(message);
-                _messageJournal.Add(new messageWithFlag(){Message = message, IsRecorded = false});
+                _messageJournal.Add(new messageWithFlag() {Message = message, IsRecorded = false});
                 if (_messageBuffer.Count >= MessageLimit && IsLogging)
                 {
                     Flush();
@@ -79,9 +79,9 @@ namespace LogBufferTester
 
         public async void AddAsync(string item)
         {
-            await Task.Run(()=>Add(item));
+            await Task.Run(() => Add(item));
         }
-        
+
         private void InitializeLogBuffer()
         {
             _streamWriter = new StreamWriter(_destPath, true);
@@ -102,12 +102,12 @@ namespace LogBufferTester
             {
                 Flush();
             }
-
+            Delay = 0;
+            IsLogging = false;
+            _disposed = true;
             _streamWriter.Flush();
             _streamWriter.Close();
             _streamWriter.Dispose();
-            IsLogging = false;
-            _disposed = true;
         }
 
         ~LogBuffer()
@@ -122,7 +122,7 @@ namespace LogBufferTester
             while (_messageBuffer.TryDequeue(out var message))
             {
                 try
-                { 
+                {
                     _streamWriter.WriteLine(message);
                 }
                 catch
@@ -145,6 +145,7 @@ namespace LogBufferTester
         {
             await Task.Run(Flush);
         }
+
         private void LoggerThreadMethod()
         {
             var needAFlush = false;
@@ -194,6 +195,7 @@ namespace LogBufferTester
                 var tmpDelay = delay;
                 var surplus = tmpDelay % 1000;
                 Thread.Sleep(surplus);
+                tmpDelay -= surplus;
                 while (tmpDelay > 0)
                 {
                     Thread.Sleep(1000);
@@ -205,7 +207,6 @@ namespace LogBufferTester
                     }
                 }
             }
-
             Thread.Sleep(Delay);
         }
 
@@ -233,7 +234,7 @@ namespace LogBufferTester
 
         public string DisplayLog()
         {
-            var stringBuilder = new StringBuilder("В очереди для записи на диск: " + Environment.NewLine);
+            var stringBuilder = new StringBuilder("Весь журнал сообщений: " + Environment.NewLine);
             _messageJournal.ForEach(item => stringBuilder.Append(item.Message + Environment.NewLine));
             return stringBuilder.ToString();
         }
